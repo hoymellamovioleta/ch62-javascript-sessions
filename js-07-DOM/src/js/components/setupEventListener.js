@@ -1,3 +1,4 @@
+import { formHandler } from "./form-handler";
 
 
 const setupEventListener = () => {
@@ -11,6 +12,8 @@ const setupEventListener = () => {
 
         event.preventDefault(); // Prevenir el comportamiento por defecto del formulario
         console.log("Form submitted!");
+        const data = formHandler();
+        console.table( data );
     });
 
 }
