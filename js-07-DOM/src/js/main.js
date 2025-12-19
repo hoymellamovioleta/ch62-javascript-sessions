@@ -40,4 +40,4 @@ import { initApp } from './initApp';
         cargado y parseado, sin esperar a que se carguen imágenes u otros recursos externos.  
   */      
 
-window.addEventListener("DOMContentLoaded", initApp() );
+window.addEventListener("DOMContentLoaded", initApp );
