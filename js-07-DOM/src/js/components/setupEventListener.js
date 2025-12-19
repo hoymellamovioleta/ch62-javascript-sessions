@@ -12,7 +12,7 @@ const setupEventListener = () => {
 
         event.preventDefault(); // Prevenir el comportamiento por defecto del formulario
         console.log("Form submitted!");
-        const data = formHandler();
+        const data = formHandler( taskForm );
         console.table( data );
     });
 
